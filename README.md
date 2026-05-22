@@ -16,6 +16,7 @@ Randomized behavior
 **Project Structure**
 
 1. Grid Class
+   
 Purpose:
 Represents the 2D environment where bacteria exist.
 Attributes:
@@ -31,6 +32,7 @@ remove_bacterium(position) – removes a bacterium from a location
 
 
 2. Bacterium Class
+   
 Purpose:
 Models a single bacterium with its lifecycle and behavior.
 Attributes:

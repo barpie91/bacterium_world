@@ -24,6 +24,7 @@ Represents the 2D environment where bacteria exist.
 Attributes:
 
 size – dimensions of the grid
+
 grid – 2D structure storing bacteria instances
 
 Methods:
@@ -44,7 +45,9 @@ Models a single bacterium with its lifecycle and behavior.
 Attributes:
 
 position – current location in the grid
+
 health – determines survival and reproduction ability
+
 age – bacterium lifespan indicator
 
 Methods:

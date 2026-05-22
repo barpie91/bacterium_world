@@ -29,7 +29,9 @@ grid – 2D structure storing bacteria instances
 Methods:
 
 update() – updates the state of the grid in each simulation step
+
 add_bacterium(position) – adds a bacterium at a specific location
+
 remove_bacterium(position) – removes a bacterium from a location
 
 
@@ -48,8 +50,11 @@ age – bacterium lifespan indicator
 Methods:
 
 move() – random movement within the grid
+
 reproduce() – creates a new bacterium if conditions are met
+
 age() – increments age and affects health
+
 die() – determines if the bacterium should be removed
 
 

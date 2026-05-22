@@ -18,7 +18,9 @@ Randomized behavior
 1. Grid Class
    
 Purpose:
+
 Represents the 2D environment where bacteria exist.
+
 Attributes:
 
 size – dimensions of the grid
@@ -34,7 +36,9 @@ remove_bacterium(position) – removes a bacterium from a location
 2. Bacterium Class
    
 Purpose:
+
 Models a single bacterium with its lifecycle and behavior.
+
 Attributes:
 
 position – current location in the grid
@@ -102,6 +106,7 @@ Execute update loop
 
 
 **Learning Outcomes**
+
 This project strengthens:
 
 - OOP design skills

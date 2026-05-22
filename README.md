@@ -1,10 +1,11 @@
 Bacteria Simulation in 2D Grid
 
-###Overview
-This project simulates a population of bacteria living in a 2D grid environment. Each bacterium behaves independently — it can move, reproduce, age, and die based on defined conditions.
+Overview
+This project simulates a population of bacteria living in a 2D grid environment. 
+Each bacterium behaves independently — it can move, reproduce, age, and die based on defined conditions.
 The simulation demonstrates object-oriented design and models interactions within a dynamic system.
 
-##Key Concepts
+Key Concepts
 
 Object-Oriented Programming (OOP)
 Simulation of autonomous agents
@@ -12,7 +13,7 @@ State management in dynamic systems
 Randomized behavior
 
 
-##Project Structure
+Project Structure
 1. Grid Class
 Purpose:
 Represents the 2D environment where bacteria exist.
@@ -45,7 +46,7 @@ age() – increments age and affects health
 die() – determines if the bacterium should be removed
 
 
-##Simulation Flow
+Simulation Flow
 
 Initialize the grid
 Create and place initial bacteria
@@ -58,37 +59,37 @@ Remove dead bacteria
 
 Repeat steps for each iteration
 
-##Implementation Steps
+Implementation Steps
 
-##Design Bacterium Class
+Design Bacterium Class
 
 Define attributes (position, health, age)
 Implement lifecycle methods (move, age, reproduce, die)
 
-##Implement Grid
+Implement Grid
 
 Create 2D structure
 Add management methods for bacteria
 
-##Simulate Behavior
+Simulate Behavior
 
 Random movement logic
 Interactions between bacteria
 
 
-##Lifecycle Management
+Lifecycle Management
 
 Aging system
 Reproduction conditions
 Death conditions
 
-##Run Simulation
+Run Simulation
 
 Initialize environment
 Execute update loop
 
 
-##Tips & Best Practices
+Tips & Best Practices
 
 - Start simple (movement + grid) and iteratively add complexity
 - Test components independently
@@ -96,7 +97,7 @@ Execute update loop
 - Keep state updates consistent per simulation step
 
 
-##Learning Outcomes
+Learning Outcomes
 This project strengthens:
 
 OOP design skills

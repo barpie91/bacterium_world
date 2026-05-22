@@ -1,6 +1,7 @@
 **Bacteria Simulation in 2D Grid**
 
 **Overview**
+
 This project simulates a population of bacteria living in a 2D grid environment. 
 Each bacterium behaves independently — it can move, reproduce, age, and die based on defined conditions.
 The simulation demonstrates object-oriented design and models interactions within a dynamic system.
@@ -46,7 +47,7 @@ age() – increments age and affects health
 die() – determines if the bacterium should be removed
 
 
-Simulation Flow
+**Simulation Flow**
 
 - Initialize the grid
 - Create and place initial bacteria
